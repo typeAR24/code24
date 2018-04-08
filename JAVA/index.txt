@@ -1,0 +1,18 @@
+This section is based on understanding the principles of object oriented programming(OOP) and write reusable and clean code.
+
+Major java OOP principles are : 
+
+1.  Encapsulation
+	Encapsulation is all about wrapping variables and methods in one single unit with the sole purpose of data hiding from external classes.
+
+2. Inheritance
+   Inheritance is the OOP ability that allows Java classes to be derived from other classes.
+
+3. Abstraction
+   Abstraction is a process of hiding the implementation details from the user. Only the functionality will be provided to the user.
+
+4. Polymorphism
+   Polymorphism in Java allows subclasses of a class to define their own unique behaviors and yet share some of the same functionality of the parent class.
+
+
+

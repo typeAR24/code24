@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="restEasyExample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jaxrsRestEasyExample.war">
+      <element id="artifact" artifact-name="restEasyExample:war exploded" />
+    </root>
+  </artifact>
+</component>

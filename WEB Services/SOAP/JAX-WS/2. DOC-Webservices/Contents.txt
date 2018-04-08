@@ -1,0 +1,23 @@
+Like RPC style, we can create JAX-WS example in document style. To do so, you need to change only one line in service interface.
+
+You need to use Style.DOCUMENT for @SOAPBinding annotation in place of Style.RPC. Let's have a quick look at this:
+
+
+
+1. Server
+
+|-------------------------|   *to view genereated WSDL..... 
+| JaxwsDOCInterface.java  |    1. run the publisher class, that starts the service "JaxwsPRCPublisher.java" 
+| JaxwsDOCImpl.java       |    2. open url "http://localhost:9991/jaxwsDOCExample" 
+| JaxwsDOCPublisher.java  |
+|-------------------------|
+
+2. Client
+|---------------------------|
+|JaxwsDOCClientExample.java |     *to test client cleint
+|                           |     1. start the server first by running "JaxwsDOCPublisher.java" 
+| 		            |     2. then run the class "JaxwsDOCClientExample.java "
+|---------------------------|
+
+ Lets go................................... :-)
+

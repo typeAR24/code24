@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [27/Mar/2018:18:14:12 +0200] "GET /jaxrsJerseryExample HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [27/Mar/2018:18:14:12 +0200] "GET /jaxrsJerseryExample/ HTTP/1.1" 200 57 http-bio-8080-exec-3 487
+0:0:0:0:0:0:0:1 - - [27/Mar/2018:18:14:37 +0200] "GET /jaxrsJerseryExample/rest/myask/adolph HTTP/1.1" 404 967 http-bio-8080-exec-4 16
+0:0:0:0:0:0:0:1 - - [27/Mar/2018:18:14:45 +0200] "GET /jaxrsJerseryExample/rest/myAsk/adolph HTTP/1.1" 200 48 http-bio-8080-exec-6 5

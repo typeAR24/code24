@@ -1,0 +1,24 @@
+JAX-WS Example RPC Style
+
+Creating JAX-WS example is a easy task because it requires no extra configuration settings.
+
+JAX-WS API is inbuilt in JDK, so you don't need to load any extra jar file for it. Let's see a simple example of JAX-WS example in RPC style.
+
+
+1. Server
+
+|-------------------------|   *to view genereated WSDL..... 
+| JaxwsRPCInterface.java  |    1. run the publisher class, that starts the service "JaxwsPRCPublisher.java" 
+| JaxwsRPCImpl.java       |    2. open url "http://localhost:9991/jaxwsRPCExample" 
+| JaxwsPRCPublisher.java  |
+|-------------------------|
+
+2. Client
+|-----------------------|
+| HelloWorldClient.java |     *to test client cleint
+|                       |     1. start the server first by running "JaxwsPRCPublisher.java " 
+| 			|     2. then run the class "JaxwsPRCClient.java"
+|-----------------------|
+
+ Lets go................................... :-)
+
